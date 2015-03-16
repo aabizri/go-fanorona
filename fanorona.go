@@ -34,11 +34,6 @@
 // Licensed under the UNLICENSE, written by @nodvos <alexandre@bizri.fr>
 package basic
 
-/*import (
-  "errors"
-  "fmt"
-)*/
-
 const Horizontal uint = 9 // The horizontal measure of the board
 const Vertical uint = 5   // The vertical measure of the board
 
