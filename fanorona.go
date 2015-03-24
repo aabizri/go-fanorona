@@ -35,8 +35,10 @@
 // Licensed under the UNLICENSE, written by @nodvos <alexandre@bizri.fr>
 package basic
 
-const Horizontal uint = 9 // The horizontal measure of the board
-const Vertical uint = 5   // The vertical measure of the board
+const (
+	Horizontal uint = 9 // The horizontal measure of the board
+	Vertical   uint = 5 // The vertical measure of the board
+)
 
 // An Offset() is the technical info behind a direction, that involves the movement
 type Offset struct {
