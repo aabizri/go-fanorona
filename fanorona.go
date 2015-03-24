@@ -1,8 +1,8 @@
 // TODO:
 // - Make the code compilable (done)
 // - Cut the code (done)
-// - Write a test suite
-// - Upload to GitHub
+// - Write a test suite (oops)
+// - Upload to GitHub (done)
 
 // Package basic of fanorana implements the board game basic functions in go to allow YOU to implement this game
 //
@@ -21,11 +21,12 @@
 //
 // Is there a winner?
 //
-//  if board.Win() {
+//  win,black := board.Win()
+//  if win && player==black{
 //	  fmt.Println("Yay")
 //  }
 //
-// YOU implement turns, permissions, AI, etc.
+// YOU implement turns, permissions, AI, etc. You can take a look at fanorona-cli which implements a very basic CLI turn-by-turn 2-player game.
 //
 // Or you use a midddleware that I may never do, but it's on my todo-list (which is very, _very_ long, so don't hold your breath).
 //
